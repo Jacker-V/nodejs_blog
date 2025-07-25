@@ -9,4 +9,4 @@ class newsController {
     }
 }
 
-module.exports = new newsController;
+module.exports = new newsController();

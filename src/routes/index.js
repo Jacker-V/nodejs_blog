@@ -5,11 +5,11 @@ const siteRouter = require('./site');
 
 function route(app) {
 
-    app.get('/news', newsRouter);
-    app.get('/courses', coursesRouter);
+    app.use('/news', newsRouter);
+    app.use('/courses', coursesRouter);
 
     // app.use('/search', newsRouter); 
-    app.get('/', siteRouter);
+    app.use('/', siteRouter);
 
 
     // app.get('/', (req, res) => {
