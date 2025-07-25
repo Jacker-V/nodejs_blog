@@ -7,6 +7,19 @@ header{
     color: violet;
 }
 
-.navbar-brand{
-    color: orange;
+.navbar-brand {
+  color: #07a8ed !important; /* màu xanh lá dịu mắt */
+  font-weight: bold;
+  font-size: 1.3rem;
+  text-decoration: none;
+}
+
+.user-avatar{
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+}
+
+.card{
+    margin-bottom: 20px;
 }
